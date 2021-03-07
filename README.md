@@ -9,7 +9,7 @@ x = tf.keras.layers.Conv2D(filters=8, kernel_size=3)(inputs)
 x = tf.keras.layers.MaxPool2D()(x)
 ```
 Приведение матрицы признаков к одномерному вектору 
-```
+```python
 x = tf.keras.layers.Flatten()(x)
 ```
 ## 2)Графики 
