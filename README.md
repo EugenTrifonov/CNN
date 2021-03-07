@@ -46,6 +46,6 @@ outputs = tf.keras.layers.Dense(NUM_CLASSES, activation=tf.keras.activations.sof
 
 ![gr4](https://github.com/EugenTrifonov/CNN/blob/main/graphs/epoch_loss_2.svg)
 
-# 3)Анализ результатов
+# 3.Анализ результатов
 
 
