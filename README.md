@@ -23,6 +23,7 @@ outputs = tf.keras.layers.Dense(NUM_CLASSES, activation=tf.keras.activations.sof
 
 ![acc_1](https://user-images.githubusercontent.com/80068414/110239424-d6597000-7f57-11eb-84b2-4b21583c8255.png)
 
+
 Функция потерь
 
 ![image](https://user-images.githubusercontent.com/80068414/110239506-3e0fbb00-7f58-11eb-9f3b-52c692fc9d57.png)
