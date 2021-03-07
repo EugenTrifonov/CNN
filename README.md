@@ -26,7 +26,6 @@ outputs = tf.keras.layers.Dense(NUM_CLASSES, activation=tf.keras.activations.sof
 
 Функция потерь
 ![gr2](https://github.com/EugenTrifonov/CNN/blob/main/graphs/epoch_loss_1.svg)
-## 3)Анализ результатов
 # 2.Создание и обучение сверточной нейронной сети произвольной архитектуры с количеством сверточных слоев >3
 ## 1)Структура
 4 свёрточных слоя с 8-ю фильтрами и размером ядра 3х3
@@ -47,6 +46,6 @@ outputs = tf.keras.layers.Dense(NUM_CLASSES, activation=tf.keras.activations.sof
 
 ![gr4](https://github.com/EugenTrifonov/CNN/blob/main/graphs/epoch_loss_2.svg)
 
-## 3)Анализ результатов
+# 3)Анализ результатов
 
 
