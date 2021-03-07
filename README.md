@@ -41,11 +41,11 @@ outputs = tf.keras.layers.Dense(NUM_CLASSES, activation=tf.keras.activations.sof
 
 Метрика качества
 
-![image](https://user-images.githubusercontent.com/80068414/110240428-eb84cd80-7f5c-11eb-8f0a-38cdeb58c2ca.png)
+![gr3](https://github.com/EugenTrifonov/CNN/blob/main/graphs/epoch_categorical_accuracy_2.svg)
 
 Функция потерь
 
-![image](https://user-images.githubusercontent.com/80068414/110240433-f17aae80-7f5c-11eb-9345-ee56e8ea6e41.png)
+![gr4](https://github.com/EugenTrifonov/CNN/blob/main/graphs/epoch_loss_2.svg)
 
 ## 3)Анализ результатов
 
