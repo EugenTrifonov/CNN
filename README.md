@@ -21,7 +21,7 @@ outputs = tf.keras.layers.Dense(NUM_CLASSES, activation=tf.keras.activations.sof
 
 Метрика качества
 
-![acc_1](https://user-images.githubusercontent.com/80068414/110239424-d6597000-7f57-11eb-84b2-4b21583c8255.png)
+![epoch_categorical_accuracy (1)](https://user-images.githubusercontent.com/80068414/110242769-92bb3200-7f68-11eb-8d6a-2b2954b68ac8.png)
 
 
 Функция потерь
@@ -49,3 +49,5 @@ outputs = tf.keras.layers.Dense(NUM_CLASSES, activation=tf.keras.activations.sof
 ![image](https://user-images.githubusercontent.com/80068414/110240433-f17aae80-7f5c-11eb-9345-ee56e8ea6e41.png)
 
 ## 3)Анализ результатов
+
+
