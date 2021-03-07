@@ -21,12 +21,11 @@ outputs = tf.keras.layers.Dense(NUM_CLASSES, activation=tf.keras.activations.sof
 
 Метрика качества
 
-![epoch_categorical_accuracy (1)](https://user-images.githubusercontent.com/80068414/110242769-92bb3200-7f68-11eb-8d6a-2b2954b68ac8.png)
+![gr1](https://github.com/EugenTrifonov/CNN/blob/main/graphs/epoch_categorical_accuracy_1.svg)
 
 
 Функция потерь
-
-![image](https://user-images.githubusercontent.com/80068414/110239506-3e0fbb00-7f58-11eb-9f3b-52c692fc9d57.png)
+![gr2](https://github.com/EugenTrifonov/CNN/blob/main/graphs/epoch_loss_1.svg)
 ## 3)Анализ результатов
 # 2.Создание и обучение сверточной нейронной сети произвольной архитектуры с количеством сверточных слоев >3
 ## 1)Структура
