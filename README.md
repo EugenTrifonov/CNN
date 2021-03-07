@@ -14,6 +14,13 @@
 ## 3)Аналих результатов
 # 2.Создание и обучение сверточной нейронной сети произвольной архитектуры с количеством сверточных слоев >3
 ## 1)Структура
+4 свёрточных слоя с 8-ю фильтрами и размером ядра 3х3
+```python
+  x = tf.keras.layers.Conv2D(filters=8, kernel_size=3)(inputs)
+  x = tf.keras.layers.Conv2D(filters=8, kernel_size=3)(x)
+  x = tf.keras.layers.Conv2D(filters=8, kernel_size=3)(x)
+  x = tf.keras.layers.Conv2D(filters=8, kernel_size=3)(x)
+```
 ## 2)Графики
 ![legend](https://user-images.githubusercontent.com/80068414/110239448-f25d1180-7f57-11eb-89d3-f19ba3d1d67a.png)
 
